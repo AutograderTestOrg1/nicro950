@@ -17,7 +17,7 @@ public class Spiller {
 	/*
 	 * Start oppgave d). 
 	 * 
-	 * Merk: Det er ikke nødvendig at studentene bruker exception handling for å få godkjent, det er nok
+	 * Merk: Det er ikke nÃ¸dvendig at studentene bruker exception handling for Ã¥ fÃ¥ godkjent, det er nok
 	 * at de skriver ut en feilmelding til konsollet.
 	 */
 	public String getNavn() {
@@ -25,7 +25,7 @@ public class Spiller {
 	}
 
 	public void setNavn(String navn) {
-		if (navn.equals("")) throw new IllegalArgumentException("Spilleren må ha et reelt navn!");
+		if (navn.equals("")) throw new IllegalArgumentException("Spilleren mÃ¥ ha et reelt navn!");
 		this.navn = navn;
 	}
 
@@ -34,7 +34,7 @@ public class Spiller {
 	}
 
 	public void setPoengsum(int poengsum) {
-		if (poengsum < 0) throw new IllegalArgumentException("Poengsum kan ikke være negativ!");
+		if (poengsum < 0) throw new IllegalArgumentException("Poengsum kan ikke vÃ¦re negativ!");
 		this.poengsum = poengsum;
 	}
 

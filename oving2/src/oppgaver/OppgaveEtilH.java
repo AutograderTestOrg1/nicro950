@@ -37,8 +37,8 @@ public class OppgaveEtilH {
 	/*
 	 * Oppgave g)
 	 * 
-	 * Merk at det ikke er et krav for studentene å lese inn tallene fra brukeren, men å lese inn tallene slik gjør
-	 * testing enklere da du ikke trenger å endre programmet for hver test.
+	 * Merk at det ikke er et krav for studentene Ã¥ lese inn tallene fra brukeren, men Ã¥ lese inn tallene slik gjÃ¸r
+	 * testing enklere da du ikke trenger Ã¥ endre programmet for hver test.
 	 */
 	public static void main(String[] args) {
 		Scanner inn = new Scanner(System.in);

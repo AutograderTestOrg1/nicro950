@@ -20,7 +20,7 @@ public class SpillerMedAutogenereteIDer {
 	}
 
 	public void setNavn(String navn) {
-		if (navn.equals("")) throw new IllegalArgumentException("Spilleren må ha et reelt navn!");
+		if (navn.equals("")) throw new IllegalArgumentException("Spilleren mÃ¥ ha et reelt navn!");
 		this.navn = navn;
 	}
 
@@ -29,7 +29,7 @@ public class SpillerMedAutogenereteIDer {
 	}
 
 	public void setPoengsum(int poengsum) {
-		if (poengsum < 0) throw new IllegalArgumentException("Poengsum kan ikke være negativ!");
+		if (poengsum < 0) throw new IllegalArgumentException("Poengsum kan ikke vÃ¦re negativ!");
 		this.poengsum = poengsum;
 	}
 
