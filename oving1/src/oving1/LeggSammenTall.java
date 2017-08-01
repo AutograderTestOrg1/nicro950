@@ -8,14 +8,14 @@ public class LeggSammenTall {
 		int tall = 0;
 		int sum = 0;
 		
-		// Bruker en do --- while løkke siden programmet alltid skal lese inn minst
+		// Bruker en do --- while lÃ¸kke siden programmet alltid skal lese inn minst
 		// ett tall.
 		do {
 			System.out.print("Skriv inn et tall: ");
 			tall = inn.nextInt();
 			if (tall < 0) break;
 			sum += tall;
-			System.out.println("Summen er nå: " + sum);
+			System.out.println("Summen er nÃ¥: " + sum);
 		} while (tall > 0);
 	}
 }

@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Diamant {
 	public static void main(String[] args) {
 		Scanner inn = new Scanner(System.in);
-		System.out.print("Størrelse: ");
+		System.out.print("StÃ¸rrelse: ");
 		int storrelse = inn.nextInt();
 		
 		for (int y = 0;y< storrelse; y++) {
@@ -20,7 +20,7 @@ public class Diamant {
 	}
 
 	
-	// Skiller ut dette som en metode siden det skal gjøres såpass mange ganger.
+	// Skiller ut dette som en metode siden det skal gjÃ¸res sÃ¥pass mange ganger.
 	private static void skrivUtDiamantLinje(int storrelse, int y) {
 		for (int x=0;x<(2*storrelse);x++) {
 			if (x == (storrelse-1)-y) {

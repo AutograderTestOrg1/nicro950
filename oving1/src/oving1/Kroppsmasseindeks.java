@@ -5,25 +5,25 @@ import java.util.Scanner;
 public class Kroppsmasseindeks {
 
 	/*
-	 * Løsning oppgave b, e og f. Dette er løsning for oppgave b, bortsett fra de blokkene
+	 * LÃ¸sning oppgave b, e og f. Dette er lÃ¸sning for oppgave b, bortsett fra de blokkene
 	 * med oppgave e og oppgave f kommentert.
 	 */
 	public static void main(String[] args) {
-		// Lager variablene først for å få programmet mer oversiktlig
+		// Lager variablene fÃ¸rst for Ã¥ fÃ¥ programmet mer oversiktlig
 		Scanner inn = new Scanner(System.in);
 		double hoyde;
 		double vekt;
 		double bmi;
 		
-		// Leser inn høyde
-		System.out.println("Skriv inn høyde i centimeter: ");
+		// Leser inn hÃ¸yde
+		System.out.println("Skriv inn hÃ¸yde i centimeter: ");
 		hoyde = inn.nextDouble();
 		
-		// Oppgave f. Sjekker for ulovlig høyde og lar bruker skrive inn på nytt
-		// hvis høyden er ulovlig
+		// Oppgave f. Sjekker for ulovlig hÃ¸yde og lar bruker skrive inn pÃ¥ nytt
+		// hvis hÃ¸yden er ulovlig
 		while (hoyde <= 0) {
-			System.out.println("Ulovlig høyde! Prøv igjen.");
-			System.out.println("Skriv inn høyde i centimeter: ");
+			System.out.println("Ulovlig hÃ¸yde! PrÃ¸v igjen.");
+			System.out.println("Skriv inn hÃ¸yde i centimeter: ");
 			hoyde = inn.nextDouble();			
 		}
 
